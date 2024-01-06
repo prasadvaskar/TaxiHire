@@ -7,7 +7,6 @@ const Contact = () => {
             <div className='contact-us-heading'>Welcome to TaxiHire Support</div>
             <div>
                 <p className='contact-us-tagline'>We’re here to help. Looking for customer service contact information? Put your query in below form. Feel free to call us at below number.</p>
-               
                 <div className='form-add-container'>
                 <div>
                 <img className='contact-img' src ='https://www.shutterstock.com/shutterstock/photos/2143114885/display_1500/stock-vector-telephone-call-expert-to-generate-lead-or-sales-success-telemarketing-tell-promotion-to-prospect-2143114885.jpg' alt ='phone'></img>
