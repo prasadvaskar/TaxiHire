@@ -1,0 +1,55 @@
+.query-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 20rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    border: 1px solid #000;
+    height: 25rem;
+}
+
+.query-form input{
+    border-radius: 8px;
+    width: 15rem;
+}
+
+.submit-btn{
+    background-color: aquamarine;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.form-add-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 3%;
+}
+
+.contact-img{
+    height: 25rem;
+    width: 40rem;
+    border-radius: 10px;
+}
+
+.contact-us-heading{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.contact-us-tagline{
+    font-size: 16px;
+}
+
+.contact-address h2{
+    font-size: 20px;
+    font-weight: bold;
+}

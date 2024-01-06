@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Navbar from './component/Navbar';
+import Banner from './component/Banner'
+import About from './component/About';
+import Contact from './component/Contact';
+import Service from './component/Service';
+import Fleet from './component/Fleet';
+
 
 function App() {
+  const [activeComponent, setActiveComponent] = useState('home');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar setActiveComponent={setActiveComponent}/>
+      <div>
+        {activeComponent === 'home' && <Banner/>}
+        {activeComponent === 'aboutus' && <About/>}
+        {activeComponent === 'contactus' && <Contact/>}
+        {activeComponent === 'service' && <Service />}
+        {activeComponent === 'ourfleet' && <Fleet />}
+
+      </div>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.fleet-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    border-radius: 10px;
+}
