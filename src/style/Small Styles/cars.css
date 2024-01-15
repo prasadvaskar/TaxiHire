@@ -1,0 +1,22 @@
+.cars{
+    height:  22rem;
+    width: 20rem;
+}
+
+img{
+    width: 20rem;
+    height:22rem;
+    display: block;
+}
+
+.cars-container{
+    position: relative;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

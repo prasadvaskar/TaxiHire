@@ -13,10 +13,11 @@ const Contact = () => {
 
                 </div>
                     <div className='query-form'>
+                        <h1>Send us your query</h1>
                         <input placeholder='Full Name'></input>
                         <input placeholder='Mobile Number'></input>
                         <input placeholder='Email Id'></input>
-                        <textarea placeholder='Enter Query'></textarea>
+                        <textarea className='query-text-area' placeholder='Enter Query'></textarea>
                         <button className='submit-btn'>Submit</button>
                     </div>
 

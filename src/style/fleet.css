@@ -2,8 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
 }
 
 img{
     border-radius: 10px;
+}
+
+.fleet h1{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }

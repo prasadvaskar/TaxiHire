@@ -1,6 +1,8 @@
+
+
 .query-form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     gap: 5px;
     align-items: flex-start;
@@ -12,7 +14,13 @@
     border-radius: 10px;
     box-shadow: 10px;
     border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
     height: 25rem;
+}
+
+.query-form h1{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .query-form input{
@@ -52,4 +60,12 @@
 .contact-address h2{
     font-size: 20px;
     font-weight: bold;
+}
+
+.query-text-area{
+    height: 10rem;
+    width: 8rem;
+    rows: 4;
+    columns: 5;
+
 }
